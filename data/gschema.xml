@@ -3,13 +3,13 @@
   <schema path="/com/bsdadm/linux/vala-and-gtk-starter/" id="com.bsdadm.linux.vala-and-gtk-starter">
     <key name="pos-x" type="i">
       <default>320</default>
-      <summary>The X position of the window</summary>
+      <summary>The horizontal position of the window</summary>
       <description>The saved Horizontal position of the window</description>
     </key>
 
     <key name="pos-y" type="i">
       <default>320</default>
-      <summary>The Y position of the window</summary>
+      <summary>The vertical position of the window</summary>
       <description>The saved Vertical position of the window</description>
     </key>
 
@@ -23,6 +23,12 @@
       <default>480</default>
       <summary>The height of the window</summary>
       <description>The saved height of the window</description>
+    </key>
+
+    <key name="first-run" type="b">
+      <default>true</default>
+      <summary>Whether this is the first time the application has been run</summary>
+      <description>Whether this is the first time the application has been run</description>
     </key>
   </schema>
 </schemalist>
