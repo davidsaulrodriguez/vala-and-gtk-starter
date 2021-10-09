@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schemalist>
+  <schema path="/com/bsdadm/linux/vala-and-gtk-starter/" id="com.bsdadm.linux.vala-and-gtk-starter">
+    <key name="pos-x" type="i">
+      <default>320</default>
+      <summary>The X position of the window</summary>
+      <description>The saved Horizontal position of the window</description>
+    </key>
+
+    <key name="pos-y" type="i">
+      <default>320</default>
+      <summary>The Y position of the window</summary>
+      <description>The saved Vertical position of the window</description>
+    </key>
+
+    <key name="window-width" type="i">
+      <default>640</default>
+      <summary>The width of the window</summary>
+      <description>The saved width of the window</description>
+    </key>
+
+    <key name="window-height" type="i">
+      <default>480</default>
+      <summary>The height of the window</summary>
+      <description>The saved height of the window</description>
+    </key>
+  </schema>
+</schemalist>
